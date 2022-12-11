@@ -201,7 +201,7 @@ d3.csv("DrugsOverall.csv", function (error, data) {
       div.transition().duration(200).style("opacity", 0.9);
       div
         .html(
-          "<p>Year : " +
+          "<p>Year: " +
             d.Year +
             "</p> <p>Over 26 Total : " +
             d.totalover26 +
