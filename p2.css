@@ -1,0 +1,245 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+font-family: 'Montserrat', sans-serif;
+}
+
+section:focus {
+  outline: none;
+}
+.intro {
+  text-align: center;
+  font-family: 'macho', sans-serif;
+  font-weight:900;
+  background-image:url(img/beer.jpg);
+  background-position:50% 40%;
+  color: white;
+  background-size: 100%;
+  min-height: 20vh;
+  width: auto;
+  background-position: center;
+  padding: 5rem;
+}
+.titlebackground {
+  min-height: 20vh;
+  width: auto;
+  background-position:50% 40%;
+  background-size: cover%;
+  text-align: center;
+
+}
+.titlebackground span {
+  color: white;
+}
+h1{
+  font-weight: 900;
+  font-size: 4rem;
+  margin: auto;
+}
+h3 {
+  font-weight: normal;
+  font-size: 2rem;
+}
+.textcolor1{
+  color: rgba(245, 171, 53, 1);
+}
+.benefits-img1 {
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  min-height: 43vh;
+  background-color: #efefee80;
+overflow: hidden;
+padding-left: 2px;
+padding-right: 2px;
+}
+
+.svg{
+  width: 700px;
+}
+
+
+.benefits-img2 {
+  background-position: center;
+  background-size: cover;
+  min-height: 55vh;
+  background-color: rgb(236 242 244);
+}
+
+.benefits-img3 {
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  font-weight: 900;
+  padding-top: 1.5%;
+  background-color: rgb(197 197 197 / 40%);
+}
+
+.benefits-img3 h3 {
+  font-weight: 900;
+}
+.benefits-img3 p {
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
+.benefits-block {
+  padding: 6%;
+  font-weight: lighter;
+  background-color: rgb(197 197 197 / 40%);
+}
+.benefits-block h3 {
+  font-weight: 900;
+}
+.benefits-block p {
+  font-size: 1rem;
+}
+.benefits {
+  color: rgb(1, 50, 67);
+}
+.quote {
+  padding: 5%;
+}
+h5 {
+  text-align: right;
+  color: grey;
+  font-weight: lighter;
+  margin-top: 1%;
+}
+.right {
+  text-align:right;
+}
+
+html, body {
+    height: 100%;
+}
+#map {
+    width: 700px;
+    height: 600px;
+}
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+.legend {
+    line-height: 18px;
+    color: #555;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+.slider{
+  padding: 1%;
+  font-weight: lighter;
+  text-align: center;
+  border: solid;
+  border-color: rgb(65 74 93 / 95%);
+}
+
+.tooltip {
+  position: absolute;
+  text-align: center;
+  pointer-events: none;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  background: white;
+  border: 0px;
+  border-radius: 8px;
+}
+
+.tooltip.hidden {
+    display: none;
+}
+
+#tooltip p {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+            line-height: 20px;
+}
+
+.line {
+    fill: none;
+    /*stroke: #aaa;
+    stroke: #43484c;
+    stroke: #405275;
+    stroke: rgba(40, 53, 79, .95);
+    stroke: #161719;
+    stroke: #f99e1a;*/
+    stroke: #f89e35;
+    stroke-width: 2px;
+}
+
+.line2 {
+    fill: none;
+    stroke: #aaa;
+    stroke-width: 2px;
+}
+
+.line3 {
+    fill: none;
+    stroke: #405275;
+    stroke-width: 2px;
+}
+
+.line3-text {
+    fill: #405275;
+    stroke: #405275;
+}
+
+.line2-text {
+    fill: #aaa;
+    stroke: #aaa;
+}
+
+.line-text {
+    fill: #f89e35;
+    stroke: #f89e35;
+}
+
+div.tooltip1 {
+    position: absolute;
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    background: white;
+    border: 0px;
+    border-radius: 8px;
+}
+
+.tooltip1 p {
+    margin: 0;
+    padding: 0;
+}
+
+circle {
+    fill: rgba(40, 53, 79, .95);
+}
+
+.features {
+  background-color:rgb(1, 50, 67);
+  color: white;
+  padding: 3%;
+  margin: auto;
+}
+.features h3 {
+  font-weight: 900;
+  font-size: 1.5rem;
+  text-align: center;
+}

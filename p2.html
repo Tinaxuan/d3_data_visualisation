@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,800,900" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+		<!--D3.js library v.5-->
+		<script src="https://d3js.org/d3.v5.js"></script>
+        <!-- Load d3.js -->
+        <script src="https://d3js.org/d3.v4.js"></script>
+        <script src="https://d3js.org/d3.v5.js"></script>
+
+        <!-- Color scale -->
+        <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
+        <link rel="stylesheet" href="p2.css">
+
+        <!--D3 queue-->
+		<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+		<script type="text/javascript" src="2010.js"></script>
+        <script type="text/javascript" src="2011.js"></script>
+        <script type="text/javascript" src="2012.js"></script>
+        <script type="text/javascript" src="2013.js"></script>
+        <script type="text/javascript" src="2014.js"></script>
+
+        <title>CS5044 Practical 2</title>
+			</head>
+			<body>
+
+			  <!-- - - - - - - - - - - - - HEADER- - - - - - - - - - -->
+			<header class="intro">
+			  <h1> <span class="textcolor1">Alcohol Dependence </span>in the USA</h1>
+			  <h3> National Survey on Drug Use and Health </h3>
+
+			</header>
+			<!-- - - - - - - - - - - - - HEADER- - - - - - - - - - -->
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+		<section class="grid benefits" id="benefits">
+		  <div class="col-4_sm-12 benefits-block">
+		    <h3>About this <span class="textcolor1">visualisation</span></h3>
+		    <p>This visualisation is about alcohol dependence among different age groups and states. Data was collected from individual states as part of the NSDUH study which ranges from 2010 to 2014.</p>
+				<br>
+				<p>The line graph on the right shows the trends over the five year span for the whole of the USA. Each line represents a different age group as shown by the key.</p>
+				<p>The map and the pie chart below focus on the totals of each state. The pie chart reflects the breakdown for each state when selected on the map. </p>
+			</div>
+		  <div class="col-8_sm-12 benefits-img1" id="line">
+		  </div>
+		  <form class="col-12 slider">
+		        <label for="year">Drag to specify a Year for the Map and Pie Chart: </label>
+		        <input type="range" min=2010 max=2014 step=1 id="year" value=2014 oninput="selected_year.value = year.value">
+		        <output name="selected_year" id="selected_year">2014</output>
+		    </form>
+		  <div class="col-6_sm-12 benefits-img2" id="map">
+		  </div>
+		  <div class="col-6_sm-12 benefits-img3" id="piechart">
+				<h3><span class="textcolor1">Breakdown by State</span></h3>
+				<p>Hover over each pie section to view the total per age group</p>
+			</div>
+
+
+		  </section>
+			<!--Author Details-->
+			<section class="grid features" id="features">
+			  <div class="col-12">
+			  <h3><span class="textcolor1">CS5044 : </span>Information Visualisation</h3>
+				<br>
+				<h3><span class="textcolor1">Creators : </span>200010584 & 200033552</h3>
+			  </div>
+			</section>
+
+
+</body>
+<script type="text/javascript" src="dash.js"></script>
+<script type="text/javascript" src="line_chart.js"></script>
+</html>
